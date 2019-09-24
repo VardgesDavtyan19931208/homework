@@ -5,6 +5,6 @@ radius = input("Input the radius: ")
 
 import math
 
-area_of_circle = 3.14 * (int(radius)**2)
+area_of_circle = 3.14 * (float(radius)**2)
 
 print("Area of circle is " + str(area_of_circle))
